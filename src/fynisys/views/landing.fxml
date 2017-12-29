@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<!--<TabPane prefHeight="727.0" prefWidth="1340.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">-->
+    <Tab closable="false" text="Home" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="1342.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">    
+    <children>
+        <VBox prefHeight="531.0" prefWidth="1326.0" styleClass="vBox-3" stylesheets="@../css/landingpage.css">
+            <VBox.margin>
+                <Insets />
+            </VBox.margin>
+            <children>
+                <HBox prefHeight="39.0" prefWidth="614.0">
+                    <children>
+                        <AnchorPane prefHeight="50.0" prefWidth="1247.0">
+                            <children>
+                                <HBox prefHeight="53.0" prefWidth="649.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+                                    <children>
+                                        <Label text="Welcome,  John Bravo" textFill="#005783">
+                                            <font>
+                                                <Font name="System Bold" size="12.0" />
+                                            </font>
+                                        </Label>
+                                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                        <Label text="Last  Login: 21-09-2017" textFill="#005783">
+                                            <font>
+                                                <Font name="System Bold" size="12.0" />
+                                            </font>
+                                        </Label>
+                                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                        <Label text="Time: 10:15AM" textFill="#005783">
+                                            <font>
+                                                <Font name="System Bold" size="12.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                                <VBox alignment="TOP_RIGHT" layoutX="514.0" prefHeight="47.0" prefWidth="649.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+                                    <children>
+                                        <ChoiceBox prefHeight="25.0" prefWidth="32.0" styleClass="landingChoiceBox" stylesheets="@../css/landingpage.css" />
+                                    </children>
+                                </VBox>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </HBox>
+                <HBox prefHeight="450.0" prefWidth="1269.0">
+                    <children>
+                        <AnchorPane prefHeight="400.0" prefWidth="867.0">
+                            <children>
+                                <Label layoutX="14.0" layoutY="31.0" text="Morbi interdum, neque quis elementum " textFill="#fe9a00">
+                                    <font>
+                                        <Font name="System Bold" size="24.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="14.0" layoutY="119.0" text="Morbi interdum, neque quis elementum lobortis, arcu dolor " />
+                                <Label layoutX="14.0" layoutY="139.0" text="elementum ligula, et venenatis mauris mi ac magna. Nunc " />
+                                <Label layoutX="14.0" layoutY="158.0" text="consequat tortor eget tincidunt mattis." />
+                                <Label layoutX="14.0" layoutY="57.0" text="lobortis." textFill="#fe9a00">
+                                    <font>
+                                        <Font name="System Bold" size="24.0" />
+                                    </font>
+                                </Label>
+                                <ImageView fitHeight="17.0" fitWidth="200.0" layoutX="8.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../css/landingSaperator.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" stylesheets="@../css/landingpage.css">
+                            <children>
+                                <ImageView fitHeight="320.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../css/landingCircle.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+     
+    </children>
+</VBox>
+    </Tab>
+<!--</TabPane>-->

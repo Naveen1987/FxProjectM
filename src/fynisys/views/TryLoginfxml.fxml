@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="pane" stylesheets="@../css/tryloginfxml.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fynisys.controller.LoginController">
+    <children>
+        <VBox maxHeight="610.0" prefHeight="610.0" prefWidth="364.0" style="-fx-max-height: 600; -fx-max-width: 500;" styleClass="vboxwhite" stylesheets="@../css/tryloginfxml.css">
+            <HBox.margin>
+                <Insets bottom="50.0" top="81.0" />
+            </HBox.margin>
+            <children>
+                <VBox prefHeight="400.0" prefWidth="364.0">
+                    <children>      
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../css/logo.png" />
+                            </image>
+                            <VBox.margin>
+                                <Insets left="25.0" top="40.0" />
+                            </VBox.margin>
+                        </ImageView>
+                        <Label text="LOGIN" textFill="#ed9b2d">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="30.0" top="30.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label prefHeight="4.0" prefWidth="21.0" style="-fx-background-color: #ed9b2d;">
+                            <font>
+                                <Font size="1.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="30.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label text="Please Enter The Details Below:" textFill="#979797">
+                            <VBox.margin>
+                                <Insets left="30.0" top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label fx:id="temporaryPassword" layoutX="40.0" layoutY="162.0" text="Temporary password has been sent on your registered email" textFill="#979797" visible="false">
+                            <VBox.margin>
+                                <Insets left="30.0" top="5.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label text="Username" textFill="#185372">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="30.0" top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <HBox prefHeight="41.0" prefWidth="334.0">
+                            <children>
+                                <TextField fx:id="username" prefHeight="25.0" prefWidth="300.0" styleClass="text-field" stylesheets="@../css/login.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                    <opaqueInsets>
+                                        <Insets />
+                                    </opaqueInsets>
+                                </TextField>
+                            </children>
+                            <VBox.margin>
+                                <Insets left="30.0" />
+                            </VBox.margin>
+                        </HBox>
+                        <Label layoutX="10.0" layoutY="184.0" text="Password" textFill="#185372">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="30.0" top="20.0" />
+                            </VBox.margin>
+                        </Label>
+                        <HBox layoutX="40.0" layoutY="190.0" prefHeight="35.0" prefWidth="334.0">
+                            <children>
+                                <PasswordField fx:id="passwordText" prefHeight="25.0" prefWidth="300.0" styleClass="text-field" stylesheets="@../css/login.css">
+                                    <opaqueInsets>
+                                        <Insets left="-13.0" />
+                                    </opaqueInsets>
+                                    <VBox.margin>
+                                        <Insets left="25.0" />
+                                    </VBox.margin>
+                                </PasswordField>
+                            </children>
+                            <VBox.margin>
+                                <Insets left="30.0" />
+                            </VBox.margin>
+                        </HBox>
+                        <HBox prefHeight="19.0" prefWidth="364.0">
+                            <children>
+                                <Label fx:id="displaypassword" prefHeight="17.0" prefWidth="131.0" style="visibility: false;" text="DisplayPassword">
+                                    <padding>
+                                        <Insets left="45.0" />
+                                    </padding>
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </Label>
+                                <Button fx:id="showpassword" layoutX="10.0" layoutY="10.0" onMousePressed="#showPassword" onMouseReleased="#hidePassword" prefHeight="15.0" style="-fx-background-color: white;" text="Show Password" textFill="#185372">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                                <Button fx:id="forgetpass" layoutX="251.0" layoutY="10.0" prefHeight="25.0" style="-fx-background-color: white;" text="Forgot Password?" textFill="#fbb03a">
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                            </children>
+                            <VBox.margin>
+                                <Insets top="3.0" />
+                            </VBox.margin>
+                        </HBox>
+                        <Label fx:id="incorrect" text="Username/Password not correct" textFill="#f80909" visible="false">
+                            <VBox.margin>
+                                <Insets left="30.0" top="5.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Button fx:id="submit" mnemonicParsing="false" prefWidth="300.0" style="-fx-background-color: #185372; -fx-border-radius: 4; -fx-max-width: 300;" text="SIGN IN" textFill="WHITE">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="30.0" top="30.0" />
+                            </VBox.margin>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </VBox>
+                <HBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="364.0">
+                    <children>
+                        <ImageView fitHeight="93.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../css/Ciobera.png" />
+                            </image>
+                            <HBox.margin>
+                                <Insets bottom="10.0" />
+                            </HBox.margin>
+                        </ImageView>
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </HBox>
+            </children>
+        </VBox>
+        <VBox layoutX="146.0" layoutY="10.0" onMousePressed="#showPassword" onMouseReleased="#hidePassword" prefHeight="495.0" prefWidth="533.0" styleClass="vboxgreen" stylesheets="@../css/tryloginfxml.css">
+            <HBox.margin>
+                <Insets bottom="50.0" top="80.0" />
+            </HBox.margin>
+        </VBox>
+    </children>
+</HBox>

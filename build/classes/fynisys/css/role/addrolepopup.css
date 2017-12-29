@@ -1,0 +1,21 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.main{
+        -fx-background-color: black;
+         -fx-background-repeat: stretch;   
+    -fx-background-position: left top, center;
+    -fx-background-size: cover, auto;
+        
+}
+
+.popupCross{
+        -fx-background-image: url("cross.png");
+         -fx-background-repeat: no-repeat;   
+    
+        
+}

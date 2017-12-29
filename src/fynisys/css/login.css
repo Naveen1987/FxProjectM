@@ -1,0 +1,81 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+/*.pane{
+    -fx-background-image: url("bg.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: left top, center;
+    -fx-background-size: cover, auto;
+    
+    
+}
+
+.text-field {
+    -fx-background-color: #d8d8d8 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}*/
+
+
+/*
+ * Empty Stylesheet file.
+ */
+
+.text-field {
+    -fx-background-color: #979797 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 2 0, 0 -1 1 -1;
+    -fx-background-radius: 0;
+    -fx-background-size: 20;
+    -fx-background-repeat: no-repeat;   
+    
+    
+}
+
+.combo-box{
+    -fx-background-color: #979797 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 2 0, 0 -1 1 -1;
+    -fx-background-radius: 0;
+    -fx-background-size: 20;
+    -fx-background-repeat: no-repeat;   
+    -fx-padding : 0 0 0 30;
+    
+}
+
+
+.password-field {
+    -fx-background-color: #979797 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 2 0, 0 -1 1 -1;
+    -fx-background-radius: 0;
+    -fx-background-size: 20;
+    -fx-background-repeat: no-repeat;   
+    
+    
+}
+
+
+.vboxwhite{
+    -fx-background-image: url("white.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 625,390;
+}
+
+.vboxgreen{
+    -fx-background-image: url("green-grow-small-jpg-824-x-0-q-71-crop-scale.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 625, 390;
+}
+
+
+.pane{
+    -fx-background-image: url("back.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: left top, center;
+    -fx-background-size: cover, auto;
+    
+    
+}
+
+
+

@@ -1,0 +1,563 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+/*.mainFxmlClass {
+
+}
+.menu-bar {
+    -fx-background-color: transparent;
+}
+.menu{
+     -fx-background-color: transparent;
+}
+
+.menu .label, .menu-item .label {
+    -fx-text-fill: black;
+}
+.menu:hover, .menu:focused, .menu:pressed {
+    -fx-background-color: transparent;
+}
+.menu-item:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+}
+.context-menu {
+    -fx-background-color: white;
+    -fx-background-insets: 1,1, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+}
+
+.vBox-3{
+    -fx-background-image: url("landingbackground.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;	
+ }
+ .alMalCapital{
+    -fx-background-image: url("alMalCapital.png");
+    -fx-background-position: center;	
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 100,150;
+    
+}
+
+ .people,.arrow{
+    -fx-background-image: url("team.png");
+     -fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+        -fx-background-color: transparent;
+        -fx-background-size: 30,30;
+        
+}
+
+
+.Tradeentry{
+    -fx-background-image: url("Tradeentry.png");
+     -fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-color: transparent;
+     -fx-background-size: 20,20;
+}
+
+.Orderentry{
+    -fx-background-image: url("Orderentry.png");
+     -fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-color: transparent;
+     -fx-background-size: 20,20;
+}
+.Viewclient{
+    -fx-background-image: url("Viewclient.png");
+     -fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-color: transparent;
+     -fx-background-size: 20,20;
+}
+.GLtransaction{
+    -fx-background-image: url("GLtransaction.png");
+     -fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-color: transparent;
+     -fx-background-size: 20,20;
+}
+.NetAssetValueCalculator{
+    -fx-background-image: url("NetAssetValueCalculator.png");
+     -fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-color: transparent;
+     -fx-background-size: 20,20;
+}
+.Quickmenu{
+    -fx-background-image: url("Quickmenu.png");
+     -fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-color: transparent;
+     -fx-background-size: 20,20;
+}
+
+.help{
+    -fx-background-image: url("Help.png");
+     -fx-background-repeat: no-repeat;   
+     -fx-background-position: center, center;
+     -fx-background-color: transparent;
+     -fx-background-size: 15,15;
+}
+
+
+
+.masterData{
+    -fx-background-image: url("masterData.png");
+-fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-size: 30,30;
+}
+
+.username{
+    -fx-background-image: url("User123.jpg");
+-fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-size: 30,30;
+}
+
+.notification{
+    -fx-background-image: url("Notification.png");
+-fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-size: 20,20;
+}
+
+.logout{
+    -fx-background-image: url("LOGOUT.png");
+-fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-size: 30,30;
+}
+
+
+.trading{
+    -fx-background-image: url("trading.png");
+    -fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-size: 30,30;
+}
+
+.accounting{
+    -fx-background-image: url("accounting.png");
+-fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-size: 30,30;
+}
+
+
+.nav{
+    -fx-background-image: url("nav.png");
+    -fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-size: 30,30;
+}
+
+.report{
+    -fx-background-image: url("report.png");
+     -fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-size: 30,30;
+}
+
+.more{
+    -fx-background-image: url("more.png");
+     -fx-background-repeat: stretch;   
+     -fx-background-position: center, center;
+     -fx-background-size: 30,30;
+}
+
+.landingChoiceBox{
+    -fx-background-image: url("landingChoiceBox.png");
+    -fx-background-repeat: stretch; 
+    -fx-background-position: center, center;
+    -fx-background-size: 30,30;
+}
+
+.seperator{
+    -fx-background-image: url("landingSaperator.png");
+}
+
+
+.vBox-2{
+    -fx-background-image: url("landingbar.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;	
+    
+}
+
+.combo-box .list-cell 
+{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em; 
+}
+
+.combo-box-popup .list-view 
+{
+    -fx-background-color: white, white;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}    
+
+.combo-box-popup .list-view .list-cell 
+{
+    -fx-padding: 4 0 4 5;
+
+     No alternate highlighting 
+    -fx-background-color: white;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover 
+{
+    -fx-background: -fx-accent;
+    -fx-background-color: -fx-selection-bar;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover 
+{
+    -fx-background-color: white;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+.combo-box-base  
+{
+    -fx-skin: "com.sun.javafx.scene.control.skin.ComboBoxBaseSkin";
+    -fx-background-color: white, white, white, white;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+}
+
+.combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;  4 8 4 8 
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+.combo-box-base:hover
+{
+    -fx-color: -fx-hover-base;
+}
+
+.combo-box-base:showing 
+{
+    -fx-color: -fx-pressed-base;
+}
+
+.combo-box-base:focused {
+    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.combo-box-base:disabled {
+    -fx-opacity: .4;
+}*/
+
+
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    
+}
+.menu-bar {
+    -fx-background-color: transparent;
+}
+.menu{
+    -fx-background-color: transparent;
+}
+
+.menu .label, .menu-item .label {
+    -fx-text-fill: #005783;
+}
+
+
+.menu:hover, .menu:focused, .menu:pressed {
+/*    -fx-background-color: rgba(229,224,224,0.5);*/
+    -fx-padding: 0 20 5 0 ;
+    }
+
+/*.menu:hover, .menu:focused, .menu:pressed {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;  4 8 4 8 
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}*/
+
+/*.menu-item:hover {
+        -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-background-color: rgba(229,224,224,0.5);
+            -fx-scale-y: 1;
+             -fx-scale-x: 1;
+    
+}*/
+
+.context-menu {
+    -fx-background-color: white;
+    -fx-background-insets: 1,1, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+    
+}
+
+.vBox-3{
+    -fx-background-image: url("landingbackground.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;	
+}
+.alMalCapital{
+    -fx-background-image: url("alMalCapital.png");
+    -fx-background-position: center;	
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 100,150;
+    
+}
+
+.people{
+    -fx-background-image: url("team.png");
+    -fx-background-position: center center;	
+    -fx-background-color:transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20,20;
+    
+    
+}
+.people:hover,.people:focused,.people:pressed{
+    -fx-background-image: url("team.png");
+    -fx-background-position: center center;	
+    -fx-background-color:rgba(229,224,224,0.5);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 22,22;   
+}
+
+
+.Tradeentry{
+    -fx-background-image: url("Tradeentry.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-color: transparent;
+    -fx-background-size: 20,20;
+}
+
+.Orderentry{
+    -fx-background-image: url("Orderentry.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-color: transparent;
+    -fx-background-size: 20,20;
+}
+.Viewclient{
+    -fx-background-image: url("Viewclient.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-color: transparent;
+    -fx-background-size: 20,20;
+}
+.GLtransaction{
+    -fx-background-image: url("GLtransaction.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-color: transparent;
+    -fx-background-size: 20,20;
+}
+.NetAssetValueCalculator{
+    -fx-background-image: url("NetAssetValueCalculator.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-color: transparent;
+    -fx-background-size: 20,20;
+}
+.Quickmenu{
+    -fx-background-image: url("Quickmenu.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-color: transparent;
+    -fx-background-size: 20,20;
+}
+
+.help{
+    -fx-background-image: url("Help.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-position: center, center;
+    -fx-background-color: transparent;
+    -fx-background-size: 15,15;
+}
+
+
+
+.masterData{
+    -fx-background-image: url("masterData.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 30,30;
+}
+
+.username{
+    -fx-background-image: url("User123.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 30,30;
+}
+
+.notification{
+    -fx-background-image: url("Notification.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 20,20;
+}
+
+.logout{
+    -fx-background-image: url("LOGOUT.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 30,30;
+}
+
+
+.trading{
+    -fx-background-image: url("trading.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 30,30;
+}
+
+.accounting{
+    -fx-background-image: url("accounting.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 30,30;
+}
+
+
+.nav{
+    -fx-background-image: url("nav.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 30,30;
+}
+
+.report{
+    -fx-background-image: url("report.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 30,30;
+}
+
+.more{
+    -fx-background-image: url("more.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 30,30;
+}
+
+.landingChoiceBox{
+    -fx-background-image: url("landingChoiceBox.png");
+    -fx-background-repeat: stretch; 
+    -fx-background-position: center, center;
+    -fx-background-size: 30,30;
+}
+
+.seperator{
+    -fx-background-image: url("landingSaperator.png");
+}
+
+
+.vBox-2{
+    
+    -fx-background-position: center, center;
+    -fx-padding: 0 30 0 30;
+    }
+
+.greenAnchor{
+    -fx-background-image: url("landingbar.png");
+    -fx-background-position: center, center;
+    
+    
+}
+.combo-box .list-cell 
+{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em; 
+}
+
+.combo-box-popup .list-view 
+{
+    -fx-background-color: white, white;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}    
+
+.combo-box-popup .list-view .list-cell 
+{
+    -fx-padding: 4 0 4 5;
+    
+    /* No alternate highlighting */
+    -fx-background-color: white;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover 
+{
+    -fx-background: -fx-accent;
+    -fx-background-color: -fx-selection-bar;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover 
+{
+    -fx-background-color: white;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+/*.combo-box-base  
+{
+    -fx-skin: "com.sun.javafx.scene.control.skin.ComboBoxBaseSkin";
+    -fx-background-color: white, white, white, white;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+}*/
+
+.combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+.combo-box-base:hover
+{
+    -fx-color: -fx-hover-base;
+}
+
+.combo-box-base:showing 
+{
+    -fx-color: -fx-pressed-base;
+}
+
+.combo-box-base:focused {
+    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.combo-box-base:disabled {
+    -fx-opacity: .4;
+}

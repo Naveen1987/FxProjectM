@@ -1,0 +1,18 @@
+.titled-pane > .title > .arrow-button .arrow{
+    -fx-background-color: white;
+    -fx-translate-x: 1250;
+}
+
+
+.titled-pane > .title {
+  -fx-background-color: "#005783";
+  }
+  
+  .titled-pane{
+      -fx-background-color: "#ffffff";
+  }
+  .accessFundBox{
+         -fx-background-color: "#ffffff";
+  }
+  
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Fynisys.jnlp">
+  <information>
+    <title>Fynisys</title>
+    <vendor>daffodil-11</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  <shortcut><desktop/></shortcut>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Fynisys.jar" size="4138888" download="eager" />
+    <jar href="lib\charm-down-desktop-2.0.0.jar" size="12036" download="eager" />
+    <jar href="lib\gson-2.2.2.jar" size="189285" download="eager" />
+    <jar href="lib\itextpdf-5.1.0.jar" size="1614453" download="eager" />
+    <jar href="lib\jackson-all-1.9.0.jar" size="1105958" download="eager" />
+    <jar href="lib\jfoenix-1.2.0.jar" size="2347998" download="eager" />
+    <jar href="lib\json-simple-1.1.jar" size="16046" download="eager" />
+    <jar href="lib\okhttp-3.4.1.jar" size="344481" download="eager" />
+    <jar href="lib\okio-1.9.0.jar" size="76036" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Fynisys" >
+    <param name="requiredFXVersion" value="0.1"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="fynisys.views.FynisysSplash"  name="Fynisys" />
+  <update check="background"/>
+</jnlp>

@@ -1,0 +1,20 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    
+}
+.activeButton{
+    -fx-background-image: url("active.png");
+    -fx-background-repeat: no-repeat;   
+}
+
+.deactiveButton{
+    -fx-background-image: url("deactive.png");
+    -fx-background-repeat: no-repeat;   
+}
+
+.table-column {
+  -fx-alignment: CENTER;
+}

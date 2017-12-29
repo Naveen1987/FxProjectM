@@ -1,0 +1,28 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.vboxwhite{
+ -fx-background-image: url("white.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 625,390;
+}
+
+.vboxgreen{
+ -fx-background-image: url("green-grow-small-jpg-824-x-0-q-71-crop-scale.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-background-size: 625, 390;
+}
+
+
+.pane{
+    -fx-background-image: url("back.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: left top, center;
+    -fx-background-size: cover, auto;
+    
+    
+}
+

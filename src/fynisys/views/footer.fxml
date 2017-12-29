@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.stage.Screen?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fynisys.controller.footer.FooterController">   
+     <fx:define>
+        <Screen fx:factory="getPrimary" fx:id="screen"/>
+    </fx:define>
+    <children>
+    <VBox prefHeight="86.0" prefWidth="${screen.visualBounds.width}" styleClass="vBox-2" stylesheets="@../css/landingpage.css">
+            <children>
+                <HBox prefHeight="106.0" prefWidth="1285.0">
+                    <children>
+                        <AnchorPane prefHeight="93.0" prefWidth="1345.0">
+                            <children>
+                                <VBox layoutX="14.0" layoutY="29.0" prefHeight="17.0" prefWidth="100.0" AnchorPane.bottomAnchor="47.0" AnchorPane.topAnchor="29.0">
+                                    <children>
+                                        <Label fx:id="date"  prefHeight="0.0" prefWidth="150.0"  textFill="WHITE" />
+                                    </children>
+                                </VBox>
+                                <HBox alignment="TOP_RIGHT" layoutX="1033.0" layoutY="47.0" prefHeight="5.0" prefWidth="238.0" AnchorPane.bottomAnchor="47.0">
+                                    <children>
+                                        <ImageView fitHeight="12.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../css/copyRight.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label fx:id="copyRight"  prefHeight="0.0" prefWidth="199.0"  textFill="WHITE" />
+                                    </children>
+                                </HBox>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</VBox>

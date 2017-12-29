@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="pane" stylesheets="@../css/tryloginfxml.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fynisys.controller.OtpController">
+         <children>
+            <VBox prefHeight="536.0" prefWidth="364.0" style="-fx-max-height: 600; -fx-max-width: 500;" styleClass="vboxwhite" stylesheets="@../css/tryloginfxml.css">
+               <HBox.margin>
+                  <Insets bottom="50.0" top="81.0" />
+               </HBox.margin>
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../css/logo.png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="25.0" top="40.0" />
+               </VBox.margin>
+            </ImageView>
+            <Label prefHeight="17.0" text="ENTER OTP" textFill="#ed9b2d">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="30.0" top="50.0" />
+               </VBox.margin>
+            </Label>
+            <Label prefHeight="3.0" prefWidth="29.0" style="-fx-background-color: #ed9b2d;">
+               <font>
+                  <Font size="1.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="30.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="OTP has been sent on your registered email" textFill="#979797">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="30.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Enter OTP" textFill="#185372">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="30.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <HBox prefHeight="35.0" prefWidth="300.0">
+               <children>
+                  <TextField fx:id="enterotp" prefHeight="26.0" prefWidth="300.0" styleClass="text-field" stylesheets="@../css/login.css">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></TextField>
+               </children>
+               <VBox.margin>
+                  <Insets left="30.0" />
+               </VBox.margin>
+            </HBox>
+            <Label fx:id="incorrectOtp" text="OTP incorrect" textFill="#ee0808" visible="false">
+               <VBox.margin>
+                  <Insets left="30.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="otpsubmit" mnemonicParsing="false" prefWidth="300.0" style="-fx-background-color: #185372; -fx-border-radius: 4; -fx-max-width: 300;" text="SUBMIT" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="30.0" top="120.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../css/Ciobera.png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="130.0" top="108.0" />
+               </VBox.margin>
+            </ImageView>
+         </children>
+            </VBox>
+            <VBox layoutX="146.0" layoutY="10.0" prefHeight="501.0" prefWidth="533.0" styleClass="vboxgreen" stylesheets="@../css/otp.css">
+         <HBox.margin>
+            <Insets bottom="50.0" top="80.0" />
+         </HBox.margin></VBox>
+         </children>
+      </HBox>
